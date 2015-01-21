@@ -1,0 +1,3 @@
+mysql -u root --password="db passw here" -D openclassifieds < /home/devel/cronj_dir/displaynew.sql
+
+update oc2_ads set status=1 where url<>"" and status=50;
